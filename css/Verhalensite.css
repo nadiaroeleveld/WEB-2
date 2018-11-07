@@ -484,14 +484,10 @@ html body .form{
 
 
 /* VORMGEGEVEN VERHAAL BEWERKEN */
-html body main section{
-    background-color: #eee;
-    margin-top: -4.9em;
-    margin-bottom:0;
-}
+html body main section
 
 html body main section#account{
-    margin-top: 3em;
+    margin-top: 4em;
     
 }
 
@@ -500,6 +496,7 @@ html body main > section h1{
     text-align: center;
     padding-top: 1em;
     margin-bottom: -1.3em;
+    position: relative;
 }
 
 html body main > section img{
@@ -726,9 +723,13 @@ html body section#mijnVerhalen article:nth-of-type(1) div:nth-of-type(2){
     width: 45%;
     margin-top: -0.4em;
     font-size: 0.8em;
-    
-    
 }
+
+html body section#mijnVerhalen article:nth-of-type(2) h4{
+    margin-top:1em;
+}0;
+
+
 
 /* BUNDEL PAGINA BEWERKEN */
 
@@ -881,10 +882,10 @@ html body div section#leesOok h2{
     }
 
     header #layer{
-        max-width: 35%;
+        max-width: 41%;
         margin-left:auto;
         margin-right:auto;
-        height: 17em;
+        height: 15em;
         font-size: 80%
      }
     header #layer h1{
@@ -1093,8 +1094,8 @@ html body div section#leesOok h2{
 
     
     body header #intro #layer{
-        max-width: 50%;
-        height: 13em;
+        max-width: 35%;
+        height: 11em;
         margin-top: 2em;
     } 
     
